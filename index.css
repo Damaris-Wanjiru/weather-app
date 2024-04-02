@@ -1,0 +1,32 @@
+.container {
+    text-align: center;
+    max-width: 300px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: brown;
+    border-radius: 7px;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 10px;
+    background-color: yellow;
+}
+
+button:hover {
+    background-color: aquamarine;
+}
+
+input[type="text"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 70%;
+    border-radius: 5px;
+    border: 1px solid;
+}
+
+#weatherInfo {
+    margin-top: 15px;
+}
